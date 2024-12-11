@@ -12,7 +12,7 @@ all: clean build run
 # Build both frontend and backend
 build: build-backend
 
-run: run-backend
+run: run-backend run-frontend
 
 clean: clean-backend
 
